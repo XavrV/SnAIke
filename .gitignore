@@ -1,0 +1,49 @@
+# Entornos virtuales
+venv/
+.env/
+__pycache__/
+*.py[cod]
+
+# Archivos temporales y de caché
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Configuración de VSCode
+.vscode/
+
+# Notebooks con output pesado
+.ipynb_checkpoints/
+
+# Archivos de datasets o resultados
+data/*.csv
+data/*.json
+*.pickle
+*.pkl
+
+# Archivos de test/cache
+.pytest_cache/
+.tox/
+coverage/
+htmlcov/
+*.cover
+*.coverage
+nosetests.xml
+coverage.xml
+*.egg
+*.eggs
+dist/
+build/
+*.manifest
+*.spec
+
+# Archivos de compilación
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Otros
+*.zip
